@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #d5effb;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 150px 30px 30px 30px;
+  max-width: 650px;
+  width: 100%;
+}
+
+.cardForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 25px;
+  column-gap: 55px;
+}
+
+.inputBox {
+  grid-column: span 2;
+}
+
+.inputBox label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #1a3b5d;
+  width: 100%;
+  display: block;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ced6e0;
+  font-size: 18px;
+  padding: 5px 15px;
+  background: none;
+  color: #311147;
+  transition: all 0.3s;
+}
+.inputBox input:hover {
+  border-color: #1cd838;
+}
+
+.selectsDate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.selectsDate label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a3b5d;
+  width: 100%;
+  display: block;
+  grid-column: span 2;
+}
+
+/* TODO Поменять направление открытого списка */
+.selectsDate select {
+  display: block;
+  width: 100%;
+  padding: 5px 15px;
+  height: 50px;
+  box-shadow: none;
+  border: 1px solid #ced6e0;
+  font-size: 18px;
+  padding: 5px 15px;
+  background: none;
+  border-radius: 5px;
+  color: #311147;
+  transition: all 0.3s;
+}
+
+.selectsDate select:hover {
+  border-color: #1cd838;
+}
+
+.inputCVV {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.inputCVV label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #1a3b5d;
+  width: 100%;
+  display: block;
+}
+
+.inputCVV input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ced6e0;
+  font-size: 18px;
+  padding: 5px 15px;
+  background: none;
+  color: #311147;
+  transition: all 0.3s;
+}
+.inputCVV input:hover {
+  border-color: #1cd838;
+}
+
+.btn {
+  grid-column: span 2;
+  width: 100%;
+  height: 55px;
+  background: #2364d2;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  box-shadow: 3px 10px 20px 0px rgba(35, 100, 210, 0.3);
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}

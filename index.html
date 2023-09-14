@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>CardForm</title>
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="card">
+    </div>
+    <form action="#" class="cardForm">
+      <div class="inputBox">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" name="cardNumber">
+      </div>
+      <div class="inputBox">
+        <label for="cardHolders">Card Holders</label>
+        <input type="text" name="cardHolders">
+      </div>
+      <div class="selectsDate">
+        <label for="cardMM">Expiration Date</label>
+        <select name="cardMM" id="MM">
+          <option value="" disabled="disabled" selected="selected">Month</option>
+          <option value="01">
+            01
+          </option>
+          <option value="02">
+            02
+          </option>
+          <option value="03">
+            03
+          </option>
+          <option value="04">
+            04
+          </option>
+          <option value="05">
+            05
+          </option>
+          <option value="06">
+            06
+          </option>
+          <option value="07">
+            07
+          </option>
+          <option value="08">
+            08
+          </option>
+          <option value="09">
+            09
+          </option>
+          <option value="10">
+            10
+          </option>
+          <option value="11">
+            11
+          </option>
+          <option value="12">
+            12
+          </option>
+        </select>
+        <select name="cardYY" id="YY">
+          <option value="" disabled="disabled" selected="selected">Year</option>
+          <option value="2023">
+            2023
+          </option>
+          <option value="2024">
+            2024
+          </option>
+          <option value="2025">
+            2025
+          </option>
+          <option value="2026">
+            2026
+          </option>
+          <option value="2027">
+            2027
+          </option>
+          <option value="2028">
+            2028
+          </option>
+          <option value="2029">
+            2029
+          </option>
+          <option value="2030">
+            2030
+          </option>
+          <option value="2031">
+            2031
+          </option>
+          <option value="2032">
+            2032
+          </option>
+          <option value="2033">
+            2033
+          </option>
+        </select>
+      </div>
+      <div class="inputCVV">
+        <label for="cardCVV">CVV</label>
+        <input type="text" name="cardCVV">
+      </div>
+      <button class="btn formBtn">Submit</button>
+    </form>
+  </main>
+
+  <!-- SCRIPTS -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

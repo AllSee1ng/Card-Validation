@@ -17,8 +17,8 @@ body {
   transform: translate(-50%, -50%);
   background-color: #fff;
   border-radius: 20px;
-  padding: 150px 30px 30px 30px;
-  max-width: 650px;
+  padding: 230px 30px 30px 30px;
+  max-width: 550px;
   width: 100%;
 }
 
@@ -54,7 +54,8 @@ body {
   color: #311147;
   transition: all 0.3s;
 }
-.inputBox input:hover {
+.inputBox input:focus,
+input:hover {
   border-color: #1cd838;
 }
 
@@ -90,7 +91,8 @@ body {
   transition: all 0.3s;
 }
 
-.selectsDate select:hover {
+.selectsDate select:hover,
+select:focus {
   border-color: #1cd838;
 }
 
@@ -120,7 +122,8 @@ body {
   color: #311147;
   transition: all 0.3s;
 }
-.inputCVV input:hover {
+.inputCVV input:hover,
+input:focus {
   border-color: #1cd838;
 }
 
@@ -137,4 +140,27 @@ body {
   color: #fff;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #0cb024;
+}
+
+.cardPrev {
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 430px;
+  width: 100%;
+  height: 270px;
+  background-color: #424242;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.cardPrevNumber {
+  color: #fff;
+  margin-top: 100px;
 }
